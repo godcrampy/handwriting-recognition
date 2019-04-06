@@ -2,43 +2,34 @@
 
 Multiclass image classifier made using keras and tensorflow implemented on the [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) Dataset. 
 
-## Getting Started
-
-
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+### Getting Started
+1. Pull this repository to your local machine
+2. Import all the required libraries
+3. Add images you want to predic to the ```images``` directory
+4. Run the ```predict.py``` file and pass in the image name as an argument
 ```
-Give examples
+python predict.py image.jpg
 ```
 
-### Installing
+### Importing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. Python 3
+2. Tesorflow
+3. Keras
+4. Numpy
+5. Mathplotlib
 
 ```
-until finished
+pip install -r requirements.txt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+### Training Models
 
-Explain how to run the automated tests for this system
+Use the ```train.py``` or ```transfer_learning.py``` to train the models. The  ```train.py```
+will train the neural network from scratch while ```transfer_learning.py``` will use the
+[Inception-v3](https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c) model.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
 Give an example
