@@ -17,7 +17,7 @@ python predict.py image.jpg
 2. Tesorflow
 3. Keras
 4. Numpy
-5. Mathplotlib
+5. Matplotlib
 
 ```
 pip install -r requirements.txt
@@ -96,10 +96,6 @@ _________________________________________________________________
 * **Sahil Bondre**- [GodCrampy](https://github.com/godcrampy)
 * **Aemie Jariwala**-- [AemieJ](https://github.com/AemieJ)
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
