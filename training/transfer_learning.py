@@ -14,7 +14,7 @@ base_model = InceptionV3 (
         weights = "imagenet", 
         include_top = False ,  #We dont include the last layer of the  model
         input_shape=(128,128,3) )
-#Step for making our entire dense layer and output softmax activation function
+#Steps for making our entire dense layer and output softmax activation function
 
 x=base_model.output 
 x=MaxPooling2D()(x) 
