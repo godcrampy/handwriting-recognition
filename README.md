@@ -25,30 +25,16 @@ pip install -r requirements.txt
 
 
 ### Training Models
+Download the [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) Dataset.
+
+The ```test_train_split.py``` script will split the dataset into training and test dataset in the form of two seperate directories.
 
 Use the ```train.py``` or ```transfer_learning.py``` to train the models. The  ```train.py```
 will train the neural network from scratch while ```transfer_learning.py``` will use the
 [Inception-v3](https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c) model.
 
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Network Structure
-
+This is the strcuture implemented in the ```predict.py``` file.
 ```
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -101,23 +87,15 @@ _________________________________________________________________
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Tensoflow](https://tensorflow.org) - Computation Backend
+* [Keras](https://keras.io) - Neural Network API
+ 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Sahil Bondre**- [GodCrampy](https://github.com/godcrampy)
+* **Aemie Jariwala**-- [AemieJ](https://github.com/AemieJ)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -125,6 +103,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Team ACM for hosting AMOC
+* ACM Mentor Mansi
