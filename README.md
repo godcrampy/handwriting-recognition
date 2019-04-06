@@ -1,6 +1,6 @@
 # Object Recognition using Convolutional Neural Networks
 
-Multiclass image classifier made using keras and tensorflow implemented on the [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) Dataset. 
+Multi class image classifier made using keras and tensorflow implemented on the [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) Dataset. 
 
 ### Getting Started
 1. Pull this repository to your local machine
